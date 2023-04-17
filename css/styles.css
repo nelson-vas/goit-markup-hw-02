@@ -1,0 +1,169 @@
+body{font-family: 'Roboto', sans-serif;}
+.logo{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26;
+line-height: 31px;
+color: #2196F3;
+}
+.logo{text-decoration: none;}
+.active{list-style: none;
+text-decoration: none;}
+.link{ font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.active{color:#2196F3;}
+.link{text-decoration: none;}
+ul{list-style-type: none}
+h1{ font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.principal{
+background: #2F303A;
+}
+.buttonprincipal{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.buttonprincipal:focus,
+.buttonprincipal:hover{color: #2196F3;
+background-color: #FFFFFF;}
+.details, 
+.puntuality,
+.planning, 
+.technology{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+p{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+h2{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.professional1,
+.professional2,
+.professional3,
+.professional4{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.andres,
+.carla,
+.mario,
+.pablo{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+footer{
+background: #2F303A;
+}
+.contact1{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+text-decoration: none;
+}
+.contact2,
+.contact3{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+.briefcasebuttons{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.allbutton:hover,
+.webbutton:hover,
+.appsbutton:hover,
+.designbutton:hover,
+.marketingbutton:hover{background-color: #2196F3;}
+.project{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.allbutton,
+.webbutton,
+.appsbutton,
+.designbutton,
+.marketingbutton{color: #212121;}
+.location{font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+button{cursor: pointer;}
+.link:hover{color: #2196F3;}
+.contact1:hover,
+.contact2:hover,
+.contact3:hover{color: #2196F3;}
