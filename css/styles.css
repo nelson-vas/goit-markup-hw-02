@@ -3,8 +3,9 @@ body{font-family: 'Roboto', sans-serif;}
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 700;
-font-size: 26;
+font-size: 26px;
 line-height: 31px;
+letter-spacing: 0.03em;
 color: #2196F3;
 }
 .logo{text-decoration: none;}
@@ -34,7 +35,7 @@ color: #FFFFFF;
 .principal{
 background: #2F303A;
 }
-.buttonprincipal{
+.button_principal{
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -53,8 +54,8 @@ background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
-.buttonprincipal:focus,
-.buttonprincipal:hover{color: #2196F3;
+.button_principal:focus,
+.button_principal:hover{color: #2196F3;
 background-color: #FFFFFF;}
 .details, 
 .puntuality,
@@ -84,6 +85,7 @@ line-height: 42px;
 letter-spacing: 0.03em;
 color: #212121;
 }
+.equipment{background-color:#F5F4FA;}
 .professional1,
 .professional2,
 .professional3,
@@ -136,11 +138,19 @@ line-height: 26px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
-.allbutton:hover,
-.webbutton:hover,
-.appsbutton:hover,
-.designbutton:hover,
-.marketingbutton:hover{background-color: #2196F3;}
+.all_button:hover,
+.web_button:hover,
+.apps_button:hover,
+.desing_button:hover,
+.marketing_button:hover{background-color: #2196F3; color: #F5F4FA;}
+.all_button:focus,
+.web_button:focus,
+.apps_button:focus,
+.desing_button:focus,
+.marketing_button:focus {
+    background-color: #2196F3;
+    color: #F5F4FA;
+}
 .project{font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -149,11 +159,11 @@ line-height: 36px;
 letter-spacing: 0.06em;
 color: #212121;
 }
-.allbutton,
-.webbutton,
-.appsbutton,
-.designbutton,
-.marketingbutton{color: #212121;}
+.all_button,
+.web_button,
+.apps_button,
+.desing_button,
+.marketing_button{color: #212121;}
 .location{font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -163,7 +173,13 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 button{cursor: pointer;}
+.contact1:focus,
+.contact2:focus,
+.contact3:focus{
+    color: #2196F3;
+}
 .link:hover{color: #2196F3;}
+.link:focus {color: #2196F3;}
 .contact1:hover,
 .contact2:hover,
 .contact3:hover{color: #2196F3;}
